@@ -32,7 +32,9 @@ header{
         width: 150px;
         height: 3rem;
         font-size: 1rem;
-        color: rgb(67, 196, 235);
-        border-color: rgb(67, 196, 235);
-        background-color: white;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        background-color: rgb(53, 127, 211);
+        cursor: pointer;
     }

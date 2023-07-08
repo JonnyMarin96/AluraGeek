@@ -1,3 +1,34 @@
 .banner{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    background-image: url(../img/banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    box-shadow: inset 0 -10rem 8rem rgba(0,0,0,0.9);
+    padding-left: 15%;
+}
 
+.bannerTitle{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.bannerSubtitle{
+    color: white;
+    margin-bottom: 1rem;
+}
+
+.BtnOfertas{
+    width: 150px;
+    height: 3rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(53, 127, 211);
+    cursor: pointer;
+    margin-bottom: 5rem;
 }
