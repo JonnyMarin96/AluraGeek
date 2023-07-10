@@ -1,0 +1,34 @@
+.galeria{
+    margin: auto 5%;
+}
+
+.sectionTitleTop{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.sectionTitle{
+    display: block;
+    font-family: var(--Roboto);
+    font-size: 2rem;
+    font-weight: var(--bold);
+    color: var(--DarkGray);
+}
+
+.verMas{
+    font-family: var(--Poppins);
+    font-size: 1.1rem;
+    font-weight: var(--regular);
+    padding: 8px 13px;
+    border-radius: 100px;
+    color: var(--Blue);
+    transition: all 0.3s;
+}
+
+    .verMas:hover{
+        background-color: var(--Blue);
+        color: #ffffff;
+    }
+

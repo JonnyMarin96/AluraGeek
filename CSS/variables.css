@@ -1,5 +1,17 @@
 :root{
 
-    
+/*Colores*/
+    --Blue: #2A7AE4;
+    --Gray: #eeeeee;
+    --DarkGray: #555555;
+    --Orange: #EA6F00;
 
+/*Fuentes*/
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+
+/*Grosor de fuentes*/
+    --thin: 100;
+    --regular: 400;
+    --bold: 700;
 }
