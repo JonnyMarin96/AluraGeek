@@ -1,0 +1,39 @@
+.aboutUs-form{
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    font-family: var(--Roboto);
+    font-weight: var(--bold);
+}
+
+.aboutUs-form-nombre{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    border: none;
+    padding: 12px;
+    margin-bottom: 15px;
+}
+
+.aboutUs-form-mensaje{
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    padding: 12px;
+    border: none;
+    resize: none;
+    margin-bottom: 15px;
+}
+
+.aboutUs-form-button{
+    padding: 15px;
+    width: 40%;
+    font-family: var(--Roboto);
+    font-size: 1.1rem;
+    background-color: var(--Blue);
+    color: #ffffff;
+    border: none;
+}
+
+.aboutUs-form-button:hover{
+    scale: 101%;
+    cursor: pointer;
+}

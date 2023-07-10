@@ -1,10 +1,11 @@
 :root{
 
 /*Colores*/
+    --LightBlue: #EAF2FD;
     --Blue: #2A7AE4;
     --Gray: #eeeeee;
     --DarkGray: #555555;
-    --Orange: #EA6F00;
+    --Orange: #f37100;
 
 /*Fuentes*/
     --Poppins: 'Poppins', sans-serif;

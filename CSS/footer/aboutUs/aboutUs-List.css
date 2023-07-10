@@ -1,0 +1,16 @@
+.aboutUs-List{
+    font-family: var(--Roboto);
+    font-size: 1.2rem;
+}
+
+.aboutUs-form-title{
+    font-family: var(--Roboto);
+    font-size: 1.5rem;
+    color: var(--DarkGray);
+    margin-bottom: 30px;
+}
+
+.aboutUs-List-item{
+    margin-bottom: 30px;
+    color: var(--DarkGray);
+}

@@ -1,0 +1,18 @@
+footer{
+    background-color: var(--LightBlue);
+}
+
+.infoDev{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px 0;
+    font-family: var(--Poppins);
+    font-size: 1rem;
+    color: var(--DarkGray);
+}
+
+.infoDev-nombre{
+    margin-bottom: 10px;
+}
