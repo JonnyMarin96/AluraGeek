@@ -1,0 +1,29 @@
+.btnAdd{
+    bottom: 30px;
+    right: 30px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btnAdd-texto{
+    font-family: var(--Poppins);
+    font-weight: var(--regular);
+    font-size: 1rem;
+    color: var(--Orange);
+}
+
+.btnAdd-img{
+    height: 40px;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: var(--Orange);
+    border-radius: 100%;
+    transition: all 0.2s ease;
+    box-shadow: 0 5px 10px 2px #00000075;
+}
+
+.btnAdd-img:hover{
+    scale: 110%;
+}
