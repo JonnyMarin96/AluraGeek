@@ -12,5 +12,10 @@
 
 .aboutUs-List-item{
     margin-bottom: 30px;
-    color: var(--DarkGray);
+    color: var(--Black);
+}
+
+.aboutUs-List-item:hover{
+    cursor: pointer;
+    color: var(--Blue);
 }
