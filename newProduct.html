@@ -8,33 +8,41 @@
     <link rel="stylesheet" href="CSS/reset.css">
     <link rel="stylesheet" href="CSS/variables.css">
     <link rel="stylesheet" href="CSS/header.css">
-    <link rel="stylesheet" href="CSS/login/mainLogin.css">
     <link rel="stylesheet" href="CSS/footer/footer.css">
     <link rel="stylesheet" href="CSS/footer/aboutUs/aboutUs.css">
     <link rel="stylesheet" href="CSS/footer/aboutUs/aboutUs-List.css">
     <link rel="stylesheet" href="CSS/footer/aboutUs/aboutUs-Form.css">
+    <link rel="stylesheet" href="CSS/New Product/mainNewProduct.css">
+    <link rel="stylesheet" href="CSS/New Product/formNewProduct.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&family=Roboto:wght@100;400;700&display=swap" rel="stylesheet">
+
 </head>
 <body>
-
+    
     <header>
         <div class="headerContainer">
             <a href="index.html"><img src="img/Logo.png" alt="Alura Geek logo" class="headerImg"></a>
             <div class="headerBotones">
+                <input class="buscador" type="text" placeholder="Qué deseas buscar?">
             </div>
         </div>
     </header>
 
-    <main class="mainLogin">
+    <main class="mainNewProduct">
+
         <form class="formContainer">
-            <label class="login-Title">Iniciar Seción</label>
-            <input class="login-field" type="text" placeholder="Nombre de usuario">
-            <input class="login-field" type="password" placeholder="Contraseña">
-            <button class="login-button" type="submit">Agregar Producto</button>
+            <label class="newProduct-title">Agregar Producto</label>
+            <input class="newProduct-field" type="text"  placeholder="Categoria" id="" >
+            <input class="newProduct-field" type="text"  placeholder="Nombre del Producto" id="" >
+            <input class="newProduct-field" type="texts" placeholder="$10.00"></input>
+            <textarea class="newProduct-descripcion" rows="10" placeholder="Descripción"></textarea>
+            <input class="newProduct-fileUploader" type="file" name="" id="" >
+            <button class="newProduct-button" type="submit">Entrar</button>
         </form>
+
     </main>
 
     <footer>
@@ -64,6 +72,6 @@
         </div>
 
     </footer>
-    
+
 </body>
 </html>
