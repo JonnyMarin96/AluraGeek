@@ -14,21 +14,36 @@ function displayBtnAdd(flagAdmin){
     
 
 }*/
+const Admin = localStorage.getItem("Admin")
 
-const displayBtnAdd = (Admin) => {
-    Admin = localStorage.getItem("Admin")
+const displayBtnAdd = () => {
     const btnAdd = document.getElementById('btnAdd')
-    console.log("Si entra")
-    
     if(Admin == "true"){
         btnAdd.style.display = "flex";
-        console.log("si")
     }else{
         btnAdd.style.display = "none";
+    }
+}
+
+const displayLogIn = () => {
+    const btn = document.getElementById('btnLogin')
+    if(Admin == "true"){
+        btn.style.display = "none";
+        console.log("no")
+    }
+}
+
+const displayLogOut = () => {
+    const btn = document.getElementById('btnLogout')
+    if(Admin == "true"){
+
+    }else{
+        btn.style.display = "none";
         console.log("no")
     }
 }
 
 displayBtnAdd()
-
+displayLogIn()
+displayLogOut()
 
